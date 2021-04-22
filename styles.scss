@@ -1,0 +1,472 @@
+$DarkBlueemailbackground: hsl(217, 28%, 15%);
+$DarkBluemainbackground: hsl(218, 28%, 13%);
+$DarkBluefooterbackground: hsl(216, 53%, 9%);
+$DarkBluetestimonialsbackground: hsl(219, 30%, 18%);
+$Cyaninsidecall-to-actiongradient: hsl(176, 68%, 64%);
+$Blueinsidecall-to-actiongradient: hsl(198, 60%, 50%);
+$LightRederror: hsl(0, 100%, 63%);
+$White: hsl(0, 0%, 100%);
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    column-gap: 30vw;
+   .logo{
+       display: flex;
+       justify-content: flex-start;
+       margin: 0%;
+       padding: 1em;
+       margin-left: 2rem;
+       width: 5ch;
+   }
+    .divbtn{ 
+        display: flex;
+      
+      width:40vw;
+       justify-content: space-evenly;
+       align-content: center;
+       margin:1rem;
+
+       .btn1{
+           
+       
+           display: flex;
+           margin: 1rem 0rem;
+           margin-left: 2rem;
+           height: 3vh;
+           flex-basis: 6vw;
+           letter-spacing: 0.1em;
+           min-width:70px;
+           justify-content: center;
+           align-content: center;
+           color:$White;
+           
+           background-color: $DarkBluetestimonialsbackground;
+           outline: none;
+           
+           border: none;
+       }
+       
+       button:hover{
+           font-weight: 700;
+        text-decoration: underline;
+    }
+      
+    }
+}
+
+
+body{
+    max-width: 1440px;
+    background-image: url(./images/bg-curvy-desktop.svg);
+    @media(max-width:720px) {background-image: url(/images/bg-curvy-mobile.svg);
+        background-size: 1080px 500px;
+        background-position: -8rem 40rem ;
+    background-repeat: no-repeat;
+    }
+    background-size: 1440 450px;
+    background-position: 0 42rem;
+    background-repeat: no-repeat;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color:$White;
+    background-color: $DarkBluetestimonialsbackground;
+}
+.centered{
+    img{ 
+        margin: auto;
+        margin-top:3rem;
+        margin-bottom: 3rem;
+        width:90%;
+        display: flex;
+        justify-content: center;
+    }
+    span{margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size:1rem;
+        display: flex;
+        text-align: center;
+        max-width:55ch ;
+        line-height: 1.5em;
+    }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    max-width: 30ch;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    
+    button{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding:1em;
+        width:15rem;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        color: $White;
+        background-color:$Blueinsidecall-to-actiongradient ;
+    }
+    button:hover{
+        background-color: $Cyaninsidecall-to-actiongradient;
+    }
+}
+.article1{
+    
+    padding: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 60%;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    row-gap: 1.5rem;
+    column-gap: 10rem;
+    @media(max-width: 720px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5em;
+    img{
+        max-width: 5rem;
+        margin: 2rem;
+    }
+    p{
+        font-weight: 400;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    span{
+        text-align: center;
+    }
+   
+}
+#security{
+    transform: translate(0rem,-0.75rem);
+}
+
+#blue{
+   margin-top: -1rem;
+
+background-color: $DarkBluemainbackground;
+
+}
+.article2{margin-left: 12rem;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80%;
+    
+    margin-top: 1rem;
+    column-gap: 1rem;
+    row-gap: 0rem;
+    @media(max-width: 720px) {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+.block2{
+    max-width: 40ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    p{
+        font-weight: 400;
+        text-align: left;
+        font-size: 0.8rem;
+        line-height: 1.5em;
+        
+    }
+    span{
+        line-height: 1.2em;
+        text-align: left;
+        font-size: 2.25rem;
+        
+    }
+    a{
+        color:$Cyaninsidecall-to-actiongradient;
+    }
+}}
+.article3{
+    display: grid;
+    max-width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    grid-column-gap: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    @media(max-width: 720px) {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .box1{grid-column: 1/span 1;
+        grid-row: 1/span 1; 
+        position: relative;
+        z-index: 5;
+        
+    }
+        .box2{grid-column: 2/span 1;}
+        .box3{grid-column: 3/ span 1;}
+        .quotes{grid-column: 1/span 1;
+        grid-row: 1/span 1;
+        z-index:1 ;
+        width:3vw;
+        height:4vw ;
+        position:absolute;
+        top: -3rem;
+        left:-0.5rem;
+
+
+    }
+    div{ max-height: 15rem;
+        
+
+        background-color: $DarkBluetestimonialsbackground;
+        padding:1rem;
+        font-family: 'Open Sans', sans-serif ;
+        font-weight: 400;
+        border-radius: 0.5em;
+        @media(max-width: 720px) {
+            margin-bottom: 1rem;
+        }
+        p{
+            font-weight: 400;
+            line-height: 1.5em;
+            font-size: 0.9rem;
+        }
+        span{
+           
+            display: grid;
+            grid-template-columns: 20% 70%;
+            grid-template-rows: 30% 30%;
+            grid-template-areas: "pic p1"
+            "pic p2";
+            .p1{ font-weight: 700;
+                font-size: 0.8rem;
+                grid-area: p1;
+            }
+            .p2{font-size:0.6rem;
+                grid-area: p2;
+            }
+            .pic{
+                grid-area: pic;
+            }
+        }
+    }
+    img{
+        width:2rem;
+        border-radius: 100%;
+        margin-top: 1rem;
+    }
+    
+}
+.article4{
+   
+    display: grid;
+    max-width: 60%;
+    grid-template-columns: 1fr;
+   
+    background-color:$DarkBlueemailbackground;
+    border-radius: 0.5rem;
+    margin:0 auto;
+   
+    @media(max-width: 720px) {
+        max-width: 90%;
+        
+    }
+    
+    button{
+        width:12rem;
+        height: 3rem;
+        border-radius: 25px;
+       display: flex;
+        margin-left:2rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding:1em;
+        flex-shrink: 6;
+        
+       
+        
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        color: $White;
+        background-color:$Blueinsidecall-to-actiongradient ;
+    }
+    button:hover{
+        background-color: $Cyaninsidecall-to-actiongradient;
+    }
+    span{line-height: 1.5em;
+        text-align: center;
+        font-size: 2.25rem;
+        margin-top: 3rem;
+        margin: auto;
+
+    }
+    p{max-width: 60ch;
+        line-height: 1.5em;
+        text-align: center;
+        font-weight: 400;
+        font-size: 1rem;
+        margin: auto;
+        margin-bottom:2rem ;
+    }
+    div
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    @media(max-width: 720px){ 
+        span{
+        font-size : 1.5rem;
+        padding: 1rem;
+        
+    }
+    p{
+        padding: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+    .sameline{margin:auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 10fr 1fr;
+        @media(max-width: 720px) {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           button{margin: auto;
+               margin-bottom: 2rem;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+
+           }
+           
+        }
+        input{
+            width:90%;
+            border-radius: 25px;
+            margin: auto;
+            height: 2.75rem;
+            outline: none;
+            margin-bottom: 3rem;
+            font-size: 1.25rem;
+            border: none;
+        }
+    }
+}
+.article5{
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 30% 30% 10% 10% 10%;
+    grid-template-rows: 30% 10% 10% 10% 10% 50%;
+    column-gap: 2.5%;
+    background-color: $DarkBluefooterbackground;
+    padding: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 0;
+    margin: auto;
+    grid-template-areas:"logo . . . ." "box1 box2 box3 box4 box6"
+    "box1 box2 box3 box4 box6" "box1 box2 box3 box4 box6" "box1 box2 box3 box4 box6"
+    ". box5 box5 . .";
+    @media(max-width: 720px) {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+   .box1{grid-area: box1;
+display: flex;
+flex-direction: row;
+margin-top: 1rem;
+letter-spacing: 0.1em;
+img{
+    margin:auto;
+    margin-right: 1rem;
+    margin-top: 0rem;
+    
+}}
+   .box2{margin-top: 1.5rem;
+       grid-area: box2;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 0;
+   justify-content: center;
+   align-items: center;
+   img{
+       margin-left: 50%;
+       margin-bottom: 10%;
+   }
+  }
+   .box3{grid-area: box3;
+line-height: 0rem;
+margin-top: 3rem;}
+   .box4{grid-area: box4;
+    line-height: 1.5rem;
+margin-top: 1.5rem;}
+   .box5{grid-area: box5;
+margin: auto;
+justify-content: end;
+align-items: bottom;}
+   .box6{grid-area: box6;}
+   .logo{grid-area: logo;
+  margin: auto;
+    margin-top: 5%;
+width:15ch}
+    div{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+    }
+    p{width: 75%;
+        line-height: 1rem;
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+    img{display: flex;
+        justify-content: left;
+        padding:0.5rem;
+        
+    }
+    
+}
+aside{
+    
+    .article4{
+        div{ 
+           border-radius: 5px;;
+            z-index: 2;
+            margin-bottom: -8rem;
+            background-color: $DarkBlueemailbackground;
+        }
+    }
+    
+}
